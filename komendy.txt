@@ -1,0 +1,10 @@
+Autoprefixer -cli
+
+autoprefixer-cli -o style.prefixed.css style.css
+
+
+
+nu-html-checker
+
+
+java -jar ~/vnu.jar --skip-non-html some-directory-name/

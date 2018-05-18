@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "watch": "npm run watch:browsersync",
+    "watch:browsersync": "globstar start --server --files css/*.css *.html",
+    "build": "npm run build:clean && npm run build:sass",
+    "build:clean": "npm rm -rf https://eowm.github.io/learning-git-2/css/",
+    "build:sass": "sass --sourcemap=none --update sass:css"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +18,8 @@
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.4",
+    "globstar": "^1.0.0",
+    "node-sass": "^4.9.0",
     "nu-html-checker": "^0.1.0"
   },
   "repository": {
@@ -21,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/Eowm/learning-git-2/issues"
   },
-  "homepage": "https://github.com/Eowm/learning-git-2#readme"
+  "homepage": "https://github.com/Eowm/learning-git-2#readme",
+  "dependencies": {}
 }
