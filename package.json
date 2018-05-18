@@ -1,0 +1,25 @@
+{
+  "name": "zadanie-1-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "https://eowm.github.io/learning-git-2/",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.4",
+    "nu-html-checker": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eowm/learning-git-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eowm/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/Eowm/learning-git-2#readme"
+}
