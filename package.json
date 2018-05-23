@@ -34,5 +34,7 @@
     "url": "https://github.com/Eowm/learning-git-2/issues"
   },
   "homepage": "https://github.com/Eowm/learning-git-2#readme",
-  "dependencies": {}
+  "dependencies": {
+    "onchange": "^4.0.0"
+  }
 }

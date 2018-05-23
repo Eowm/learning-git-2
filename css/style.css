@@ -9,13 +9,6 @@ body {
 
 h1{
 	padding-bottom: 5vh;
-	text-align: center;
+	text-align: left;
 
 }
-
-p {
-	margin: 0 auto;
-	max-width: 40vw;
-}
-
-
